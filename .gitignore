@@ -1,0 +1,33 @@
+# Bỏ qua dữ liệu đầu vào và đầu ra
+*.csv
+*.parquet
+
+# Bỏ qua mô hình huấn luyện
+*.pkl
+*.h5
+*.joblib
+
+# Bỏ qua file cache của Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Bỏ qua môi trường ảo
+venv/
+.env
+*.env
+
+# Bỏ qua thư mục log
+logs/
+*.log
+
+# Bỏ qua file hệ thống của IDE
+.vscode/
+.idea/
+*.iml
+
+# Bỏ qua thư mục Spark tạm thời
+spark-warehouse/
+metastore_db/
+derby.log
